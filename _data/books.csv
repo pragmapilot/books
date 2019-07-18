@@ -1,0 +1,6 @@
+name,author,price,img,notes,status
+"Programação em Java 2","Pedro Coelho","2€",1.JPG,"N/A","available"
+"Inside the Java Virtual Machine","Bill Werners","1€",2.JPG,"Copy, booklet format","available"
+"The Java Tutorial: Object-Oriented Programming for the Internet","Marian Campione, Kathy Walrath","2€",3.JPG,"N/A","available"
+"AspectJ in Action","Ramnivas Laddad","3€",4.JPG,"N/A","available"
+"Aspect-Oriented Software Development","R. Filman, T. Elrad, S. Clarke, M. Aksit","3€",5.JPG,"N/A","available"
