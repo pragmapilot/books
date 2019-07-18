@@ -4,6 +4,13 @@
 
 <style>
 body {background-color: #fdfff7;}
+
+.content { 
+  max-width: 1280px;
+  margin: auto;
+  padding: 10px;
+}
+
 p, h1 {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   color: #39393a;
@@ -14,6 +21,8 @@ p, h1 {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
+  margin-left:auto; 
+  margin-right:auto;
 }
 
 #books th {
@@ -35,12 +44,14 @@ p, h1 {
 
 </style>
 
+<div class="content">
 <h1>
 Welcome to my list of books I don't use anymore!
 </h1>
 
-These books are not used anymore and they're seeking a new owner. 
+<p>These books are not used anymore and they're seeking a new owner. 
 The best part is that they're really cheap, so there may be some great opportunities waiting for you!
+</p>
 
 <table id="books">
 	<tr>
@@ -74,5 +85,4 @@ The best part is that they're really cheap, so there may be some great opportuni
 	</tr>
 	{% endfor %}
 </table>
-
-<ul> 
+</div>
